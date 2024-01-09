@@ -3,43 +3,48 @@
   padding: 0;
   
 }
-/* header related style */
-.header {
-    width:80% ;
-    height:530px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner\ Image.png');
-    background-position: center;
-    background-size:80% 60%;
-    background-repeat: no-repeat;
+/* Banner related style */
+.banner{
+    width: 80%;
+    height: 50vh;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner\ Image.png');
     margin: 0 auto;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-size: 100% 100%;
 }
-.header .banner-content{
+.banner .banner-content{
     position: absolute;
-    top: 32%;
-    left: 37%;
+    top: 25%;
+    left:35%;
     color:#fff;
-
 }
-.header .banner-content h3{
+.banner .banner-content h3{
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 18px;
+    font-size:18px;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 10px;
 }
-.header .banner-content h1{
+.banner .banner-content h1{
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 38px;
-    font-weight: 900;
-    line-height: 55px;
+    font-size:40px;
+    font-weight:900;
+    line-height: 45px;
     width: 350px;
 }
 /* Category Section Style */
+.category-section{
+    width: 80%;
+    max-width: 1040px;
+    margin-top: 50px;
+}
 .category-container .category-content {
     margin: 0px 450px;
     width: 400px;
@@ -48,6 +53,7 @@
     color: green;
     text-align: center;
     font-size: 60px;
+    font-family: inter;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -57,6 +63,7 @@
     color: #f00;
     text-align: center;
     font-size: 15px;
+    font-family: inter;
     font-weight: 600;
     line-height: normal;
     margin-bottom: 8px;
@@ -64,6 +71,7 @@
 .category-container .category-content h2 {
     color: #070211;
     text-align: center;
+    font-family: inter;
     font-size: 30px;
     margin-bottom: 48px;
     font-weight: 700;
@@ -131,16 +139,6 @@
     height:250px ;
     padding-right: 50px;
 }
-
-
-
-
-
-
-
-
-
-
 /* Venue Related Style */
 .venue-container{
     width:80%;
@@ -185,6 +183,8 @@
     border-radius: 8px;
     background: #F00;
     outline: none;
+    color: #FFF;
+    font-family: inter;
     
 }
 /* Best Offer Style */
@@ -266,13 +266,15 @@
 }
 /* Portfolio Style */
 .portfolio-container{
-    width:80%;
-    margin-top: 120px;
-    padding: 0px 300px;
+    width: 80%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 .portfolio-content{
     text-align: left;
-    width: 80%;
+    margin-top:100px;
+    
 }
 .portfolio-content small{
     color: #F00;
@@ -298,19 +300,21 @@
     font-weight: 400;
     line-height: 25px; 
     margin-top: 22px;
-    width: 600px;
+    width: 800px;
 }
 .portfolio-img-container{
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
+    max-width:1040px;
     
 }
 .portfolio-img-container img{
-    width: 250px;
+    width: 350px;
     height: 250px;
     margin-right: 20px;
-    margin-bottom:50px;
+    margin-bottom:10px;
 }
 /* Newsletter Related Style */
 .newsletter-container{
@@ -363,6 +367,7 @@
     border: none;
     outline: none;
     font-size: 12px;
+    color: color: rgba(7, 2, 17, 0.30); ;
     
 }
 .newsletter-form .newsletter-btn{
