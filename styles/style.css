@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+/* header related style */
+.header {
+    width:80% ;
+    height:530px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner\ Image.png');
+    background-position: center;
+    background-size:80% 60%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    
+}
+.header .banner-content{
+    position: absolute;
+    top: 32%;
+    left: 37%;
+    color:#fff;
+
+}
+.header .banner-content h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.header .banner-content h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 55px;
+    width: 350px;
+}
+/* Category Section Style */
+.category-container .category-content {
+    margin: 0px 450px;
+    width: 400px;
+}
+.category-container .category-content h1 {
+    color: green;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.category-container .category-content p {
+    color: #f00;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.category-container .category-content h2 {
+    color: #070211;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+.category-container .category-img img{
+    width: 500px;
+    margin:0px 400px;
+}
+/* Venue Related Style */
+.venue-container{
+    width:58%;
+    height:45vh;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.venue-container .venue-information{
+    margin-top: 80px;
+    width: 750px;
+    padding-top: 50px;
+}
+.venue-information h5{
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height:30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.venue-information span{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; 
+    text-transform: capitalize;
+}
+.venue-btn{
+    display: inline-flex;
+    padding: 8px 16px;
+    position: absolute;
+    left: 45%;
+    margin-top: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    outline: none;
+    
+}
+/* Portfolio Style */
+.portfolio-container{
+    width:80%;
+    margin-top: 120px;
+    padding: 0px 300px;
+}
+.portfolio-content{
+    text-align: left;
+    width: 80%;
+}
+.portfolio-content small{
+    color: #F00;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.portfolio-content h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 18px;
+}
+.portfolio-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px; 
+    margin-top: 22px;
+    width: 600px;
+}
+.portfolio-img-container{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.portfolio-img-container img{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    margin-bottom:50px;
+}
+/* Newsletter Related Style */
+.newsletter-container{
+    width: 80%;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.newsletter-content img{
+    padding-left:45%;
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.newsletter-content h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.newsletter-content p{
+    width:700px ;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    margin: 0px 180px ;
+}
+.newsletter-form{
+    width:550px ;
+    height:100px;
+    margin: 50px 300px;
+   
+   
+}
+.newsletter-form input{
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    
+}
+.newsletter-form .newsletter-btn{
+    width: 100px;
+    height:55px;
+    padding:15px;
+    position: relative;
+    left: -100px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border: none;
+    outline: none;
+    background: #F00; 
+}
+footer{
+    background-color:#070211; ;
+}
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    height: 50vh;
+   
+}
+.address-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.address-column p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height:20px;
+    width:375px ;
+    margin-bottom: 10px;
+    padding-top: 70px;
+    
+}
+.address-column-content{
+   padding-top: 70px;
+   padding-right:180px;
+}
+.address-column small{
+    color: #FFF;
+    font-size:14px ;
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: Inter;
+}
+.address-column-content img{
+    color: #FFF;
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+.icons{
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.copyright-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.copyright-column p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-container hr{
+    background: rgba(255, 255, 255, 0.15);
+   
+}
+.best-offer-section{
+    width: 80%;
+    margin-top: 50px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 180px;
+}
+.best-offer-content{
+    display: block;
+
+}
+.best-offer-content h6{
+    color: #F00;
+    text-align:left;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.best-offer-content h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size:30px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.best-offer-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:22px;
+    width: 300px;
+    
+}
+.best-offer-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 463px;
+    border: 10px solid #F00;
+    padding: 15px;
+
+}
+.best-offer-info{
+    display: block;
+    padding-top: 60px;
+}
+.best-offer-info h4{
+    color: #F00;
+    font-family: Inter;
+    font-size:25px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.best-offer-info p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size:14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:22px;
+    width: 300px;
+    margin-bottom: 20px;
+   
+}
+.best-offer-info img{
+    width: 70px;
+    height: 80px;
+}
